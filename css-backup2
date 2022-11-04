@@ -1,0 +1,118 @@
+body {
+  background: blanchedalmond;
+}
+
+title {
+  color: goldenrod;
+  font-weight: bold;
+  
+}
+
+.container-a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+
+}
+
+.a {
+  margin: 2px;
+  padding: 10px;
+  flex: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  background-color: dodgerblue;
+  color: plum;
+
+}
+
+.container-b {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+
+}
+
+.b {
+  margin: 2px;
+  padding: 10px;
+  flex: 50%;
+  text-align: center;
+  line-height: 150px;
+  font-size: 12px;
+  background-color: dodgerblue;
+  color: plum;
+
+}
+
+.container-c {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  background-color: white;
+ 
+}
+
+.c {
+  margin: 2px;
+  padding: 10px;
+  flex: 0%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  background-color: dodgerblue;
+  color: plum;
+
+}
+
+.d {
+  margin: 2px;
+  padding: 10px;
+  flex: 0%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  background-color: dodgerblue;
+  color: plum;
+
+}
+
+.e {
+  margin: 2px;
+  padding: 10px;
+  flex: 0%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  background-color: dodgerblue;
+  color: plum;
+
+}
+
+.container-d {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+
+}
+
+.f {
+margin: 2px;
+padding: 10px;
+flex: 50%;
+text-align: center;
+line-height: 50px;
+font-size: 12px;
+background-color: dodgerblue;
+color:plum;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    bacground-color: lightblue;
+  }
+}

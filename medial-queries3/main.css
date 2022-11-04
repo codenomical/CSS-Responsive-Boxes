@@ -1,3 +1,125 @@
 body {
-  background: peachpuff;
+  background: seashell;
+  color: lightblue;
+
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(110, 17, 185);
+
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h {
+  border: solid 0.3em rgb(250, 250, 250);
+  background-color: rgb(165, 51, 47);
+  padding: 1em;
+  flex-grow: 1;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover,
+.f:hover,
+.g:hover,
+.h:hover {
+  color: rgb(50, 81, 109);
+  background-color: seashell;
+  transition: 1s;
+  border: solid 0.3em rgb(75, 107, 211);
+
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  align-content: center;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+
+h1,
+h2 {
+  font-size: 35px;
+  
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.a {
+  flex-grow: 1;
+  flex-basis: 100%;
+  margin: 10px;
+}
+
+.b,
+.c,
+.d {
+  flex-basis: 15%;
+  margin: 10px;
+}
+
+.e,
+.f,
+.g {
+  flex-basis: 15%;
+  margin: 10px;
+
+}
+
+.h {
+  margin: 10px;
+  padding: 3.5em;
+  flex-grow: 1;
+
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  min-height: 30vh;
+
+}
+
+@media (max-width: 600px) {
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+
+  }
+
+  .b,
+  .c,
+  .d {
+    flex-basis: 25%;
+    
+  }
 }

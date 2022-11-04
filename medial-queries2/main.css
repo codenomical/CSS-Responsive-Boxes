@@ -1,3 +1,93 @@
 body {
-  background: papayawhip;
+  background: seashell;
+  color: white; 
+}
+
+.container-1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+  background-color: rgb(23, 172, 164);
+
+}
+
+.container-2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 75%; 
+  background-color: rgb(19, 126, 120);
+  min-height: 50vh;
+
+}
+
+.a, .b, .c, .d, .e, .f {
+  border: solid 0.3em #400d7a;
+  background-color: rgb(87, 167, 145);
+  padding: 1em;
+  flex-grow: 1;
+  font-size: 15px;
+  margin: 0.5em;
+
+}
+
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover{
+  color: rgb(12, 13, 58);
+  transition: 1s;
+  border: solid 0.1em cornsilk;
+
+}
+
+.a{
+  flex-basis: 25%;
+
+}
+
+.b{
+  flex-basis: 80%;
+  height: 50vh;
+
+}
+
+.c, .d, .e {
+  flex-basis: 15%;
+
+}
+
+h1, h2, p{
+  text-align: center;
+  align-content: center;
+  font-family: monospace;
+  font-size: 45px;
+
+}
+
+p{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+
+}
+
+/* Mobile Version */
+@media (max-width: 600px){
+  .container-1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .a{
+    width: 100%;
+
+  }
+
+  .b {
+   flex-basis: 80%; 
+  }
+
+  .container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
 }
